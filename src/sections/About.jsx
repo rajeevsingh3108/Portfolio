@@ -85,7 +85,7 @@ const About = () => {
 View my resume to learn more about my experience.
   </p>
   <a
-    href="https://drive.google.com/file/d/1hHOXD9dB2x9-S65xnVR0X7mcQ9mDnRiX/view?usp=sharing"
+    href="https://drive.google.com/file/d/1GELO1uHTQCaRYcZLVO_5JguwY8lVhRjZ/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-block px-4 py-2 text-sm font-semibold text-white bg-purple-600 hover:bg-purple-700 rounded-lg transition duration-300"

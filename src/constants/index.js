@@ -52,7 +52,7 @@ subDescription: [
   "Integrated Google Maps API for live location tracking, route plotting, and time estimation.",
   ,
 ],
-    href: "https://github.com/rajeevsingh3108/QuickCab",
+    href: "https://github.com/deepcodesss/QuickCab",
     logo: "",
     image: "/assets/projects/QuickCab.gif",
     tags: [
@@ -85,6 +85,48 @@ subDescription: [
   },
   {
     id: 3,
+    title: "Linkly - URL Shortner",
+    description: 
+  "Linkly is a full-stack URL shortener application that allows users to register, log in, and create short URLs for easy sharing and tracking. ",
+subDescription: [
+  "Built a secure URL shortening platform with unique link generation, redirection, and expiration handling.",
+  "Designed and integrated JWT-based authentication for user-specific dashboards and link management.",
+  "Developed robust backend with validation, error handling, and MongoDB persistence using Mongoose.",
+  "Created an intuitive React UI for monitoring click counts, expiration status, and managing short URLs.",
+],
+    href: "https://github.com/rajeevsingh3108/Linkly",
+    logo: "",
+    image: "/assets/projects/linkly.gif",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Nodejs",
+        path: "/assets/logos/nodejs.png",
+      },
+      {
+        id: 3,
+        name: "Express",
+        path: "/assets/logos/express.png",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.png",
+      },
+      {
+        id: 5,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
 
     title: "AirBorne - The Air Canvas",
     description: "Enables users to draw on screen in real-time using hand gestures, replacing physical input devices with camera-based virtual interaction.",
@@ -125,6 +167,43 @@ subDescription: [
       },
     ],
   },
+  {
+    id: 5,
+    title: "FilmTelligence",
+    description: 
+  "Built a content-based movie recommendation system using Python and Pandas, trained on the MovieLens dataset.",
+subDescription: [
+  "Conducted data cleaning, transformation, and merging of multiple CSV datasets using Pandas and NumPy for accurate model input.",
+  "Designed a modular recommendation pipeline ensuring scalability and easy integration with other datasets.",
+  "Created an interactive Jupyter Notebook interface enabling real-time top-4 movie recommendations based on user input.",
+],
+    href: "https://github.com/rajeevsingh3108/Film-Telligence",
+    logo: "",
+    image: "/assets/projects/filmteligence.gif",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/logos/python.png",
+      },
+      {
+        id: 2,
+        name: "Numpy",
+        path: "/assets/logos/numpy.png",
+      },
+      {
+        id: 3,
+        name: "Pandas",
+        path: "/assets/logos/pandas.png",
+      },
+      {
+        id: 4,
+        name: "Jupyter Notebook",
+        path: "/assets/logos/jupyter.png",
+      },
+      
+    ],
+  },
 ];
 
 export const mySocials = [
@@ -145,91 +224,42 @@ export const mySocials = [
   },
 ];
 
-export const experiences = [
-  {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
-];
-export const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
-  },
-];
+// export const experiences = [
+//   {
+//     title: "Software Developer",
+//     job: "Security & Defense Projects",
+//     date: "2021-2023",
+//     contents: [
+//       "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
+//       "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
+//       "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
+//       "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
+//       "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+//     ],
+//   },
+//   {
+//     title: "Back-End Developer",
+//     job: "Car Manufacture",
+//     date: "2023-2024",
+//     contents: [
+//       "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
+//       "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
+//       "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
+//       "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
+//       "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+//     ],
+//   },
+//   {
+//     title: "Freelance Developer",
+//     job: "Self-Employed",
+//     date: "2025-Present",
+//     contents: [
+//       "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
+//       "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+//     ],
+//   },
+// ]; this code for future changes
+
 
 
 // Skills Section Logo's
