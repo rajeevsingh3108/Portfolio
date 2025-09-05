@@ -52,7 +52,7 @@ subDescription: [
   "Integrated Google Maps API for live location tracking, route plotting, and time estimation.",
   ,
 ],
-    href: "https://github.com/deepcodesss/QuickCab",
+    href: "https://github.com/rajeevsingh3108/Quick-Cab",
     logo: "",
     image: "/assets/projects/QuickCab.gif",
     tags: [
